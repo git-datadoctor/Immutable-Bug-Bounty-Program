@@ -11,7 +11,7 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 // Set up environment variables
-const BUGCROWD_USERNAME = process.env.BUGCROWD_USERNAME;
+const BUGCROWD_USERNAME = process.env.BUGCROWD_sourceeye;
 const BUGCROWD_API_KEY = process.env.BUGCROWD_API_KEY;
 
 // Validate required environment variables
